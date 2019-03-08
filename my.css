@@ -16,7 +16,6 @@ body {
     text-align:Left;
         color:#252525;        
     }
-   }
     .content p {
         font-family: 'Roboto';
         font-weight: normal;
@@ -50,7 +49,6 @@ border-left-color: #b496b4; /* Цвет линии слева */
     border-left-style: solid; /* Стиль линии */
     border-left-width: 4px; /* Толщина линии */
 }
-
 .content pre {
 background-color:#f0e6d6;   
 }
@@ -66,6 +64,15 @@ font-size:12px;
     font-style: normal;
 font-size:12px;
 }
+.content1 table{
+    font-family: 'Roboto';   
+    font-weight: normal;
+    font-style: normal;
+    border-collapse: collapse;
+    border-color: #b496b4;
+    line-height: 29px;
+    font-size: 12px;
+} 
 .content1 caption { 
     font-family: 'Roboto';
     font-size: 26px;
@@ -74,19 +81,11 @@ font-size:12px;
     text-align: left;
     line-height: 50px;
 }
-.content1 table{
-    border-collapse: collapse;
-    border-color: #b496b4;
-    line-height: 29px;
-    font-size: 12px;
-} 
-.content1 th {
-    font-family: 'Roboto';   
-    font-weight: normal;
-    font-style: normal;
+.content1 th {    
 background-color: #eadcea; 
-font-size: 12px;
+font-weight: normal;
+font-style: normal;
 }
 .content1 td {
-    padding-left: 10px;
+padding-left: 10px;
 }
